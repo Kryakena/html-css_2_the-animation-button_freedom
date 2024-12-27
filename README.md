@@ -190,8 +190,14 @@ transition: all 0.8s ease 0s;
 }
 ```
 
-15. в файле style.css, чтобы анимация не перекрыла текст
+15. в файле style.css в ".button_text:before, .button_text:after", чтобы анимация не перекрыла текст
 
 ```css
-transition: all 0.3s ease 0s;
+transition: all 0.8s ease 0s;
+```
+
+16. в файле style.css в 
+
+```css
+
 ```

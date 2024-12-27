@@ -61,7 +61,7 @@ html,body{
     width: 50%;
     height: 100%;
     background-color: #eee;
-    transition: all 0.3s ease 0s;
+    transition: all 0.8s ease 0s;
 }
 .button_text:before {
     left: 0;
@@ -79,6 +79,11 @@ html,body{
 .button:hover:after {
     left: 100%;
     opacity: 0;
+}
+
+.button:hover .button_text:before, /*цвет кнопки меняется при наведении*/
+.button:hover .button_text:after{
+    background-color: #18b5a4;
 }
 
 .button:hover .button_text:before {
