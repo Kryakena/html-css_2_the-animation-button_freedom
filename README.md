@@ -28,10 +28,6 @@ https://vk.com/im/convo/19460369?entrypoint=list_all&z=video-125918837_456239141
     <!--контент-->
 
 </div>
-<!--подключаем jQuery-->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<!--подключаем файл JS скриптов-->
-<script src="script.js"></script>
 </body>
 </html>
 ```
@@ -116,14 +112,15 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
+    padding: 0px 50px;
     border-radius: 50px;
     font-size: 24px;
     text-transform: uppercase;
     color: rgba(0,0,0,0.3);
     letter-spacing: 10px;
-    transition: all 1s ease 0s;
+    transition: all 1s ease 0s; /*анимация*/
     top: 0;
+    overflow: hidden;
 }
 ```
 
@@ -155,5 +152,46 @@ html,body{
 Создаем псевдоэлементы для всей кнопки
 
 ```css
+.button:before,
+.button:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    top: -10px;
+    left: 50%;
+    z-index: 1;
+    margin: 0px 0px 0px -40px;
+}
+```
 
+12. в файле style.css событие при наведении
+
+```css
+.button:hover:before,
+.button:hover:after {
+    left: 100%;
+    opacity: 0;
+}
+```
+
+13. в файле style.css в ".button:before,.button:after" добавляем анимацию плавности анимации при наведении
+
+```css
+transition: all 0.8s ease 0s;
+```
+
+14. в файле style.css, чтобы элемент выезжая в сторону при наведении не перекрывал собой текст
+
+```css
+.button:hover .button_text:before {
+    width: 100%;
+}
+```
+
+15. в файле style.css, чтобы анимация не перекрыла текст
+
+```css
+transition: all 0.3s ease 0s;
 ```
