@@ -38,6 +38,14 @@ html,body{
     margin: 0px 0px 0px -40px;
 }
 
+/*элементы вращаются вокруг кнопки с разной скоростью*/
+.button:before{
+    animation: rotate 20s linear infinite;
+}
+.button:after{
+    animation: rotate 25s linear infinite;
+}
+
 .button_text {
     position: relative;
     height: 80px;
@@ -81,6 +89,13 @@ html,body{
     opacity: 0;
 }
 
+.button:hover .button_text{
+    top: -10px; /*кнопка при наведении становится объемной, приподнимается*/
+    color: #fff;
+    transition: all 0.5s ease 0s; /*задержка 0.5 меньше 0.8 стандартной, чтобы основная анимация сработала быстрее*/
+    box-shadow: 0 5px 0px 0 #0c5b52;
+}
+
 .button:hover .button_text:before, /*цвет кнопки меняется при наведении*/
 .button:hover .button_text:after{
     background-color: #18b5a4;
@@ -88,4 +103,19 @@ html,body{
 
 .button:hover .button_text:before {
     width: 100%;
+}
+
+.button:active .button_text { /*видим анимацию нажатия кнопки*/
+    top: -7px;
+    transition: all 0.1s ease 0s;
+    box-shadow: 0 2px 0px 0 #0c5b52;
+}
+
+@keyframes rotate { /*крутим элементы вокруг кнопки*/
+    0%{
+        transition: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
