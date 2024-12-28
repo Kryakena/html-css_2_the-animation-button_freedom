@@ -3,7 +3,8 @@
 Источник: видео "Анимация кнопки "Свобода" на HTML и CSS3. Эффекты CSS3 // Как это сделать?" 
 https://vk.com/im/convo/19460369?entrypoint=list_all&z=video-125918837_456239141%2F2e6b4c91d47840cf0d
 
-![2024-12-28_14-14-06](https://github.com/user-attachments/assets/21fe6e4d-73b7-49fd-9959-3f32877ec31d) ![2024-12-28_14-14-18](https://github.com/user-attachments/assets/a553f952-2642-411f-8674-9b6e303c371f)
+![2024-12-28_14-14-06](https://github.com/user-attachments/assets/21fe6e4d-73b7-49fd-9959-3f32877ec31d) ![399075523-a553f952-2642-411f-8674-9b6e303c371f](https://github.com/user-attachments/assets/78f7f945-5955-4525-8682-90035db2c4dd)
+
 
 
 https://github.com/user-attachments/assets/31c500c7-4151-4eb4-bb8f-1e326a23fb06
