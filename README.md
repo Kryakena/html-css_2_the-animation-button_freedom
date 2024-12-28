@@ -1,7 +1,15 @@
-# Анимированная кнопка "Свобода"
+# 🐣 Анимированная кнопка "Свобода" 🐣
 
 Источник: видео "Анимация кнопки "Свобода" на HTML и CSS3. Эффекты CSS3 // Как это сделать?" 
 https://vk.com/im/convo/19460369?entrypoint=list_all&z=video-125918837_456239141%2F2e6b4c91d47840cf0d
+
+![2024-12-28_14-14-06](https://github.com/user-attachments/assets/21fe6e4d-73b7-49fd-9959-3f32877ec31d) ![2024-12-28_14-14-18](https://github.com/user-attachments/assets/a553f952-2642-411f-8674-9b6e303c371f)
+
+
+
+https://github.com/user-attachments/assets/d06093ac-0fcf-4994-bc64-e1b572dde7ef
+
+
 
 1. создаем создаем файлы index.html, style.css в папке проекта
 
@@ -373,6 +381,11 @@ html,body{
 }
 ```
 
+![2024-12-28_14-11-48](https://github.com/user-attachments/assets/6275e407-f808-47a1-a19b-60ed9b5e3d3f)
+![2024-12-28_14-12-07](https://github.com/user-attachments/assets/0b908006-2763-49b9-8b1f-3a3baba7fd27)
+![2024-12-28_14-12-21](https://github.com/user-attachments/assets/93b4fb9b-6c25-4d71-a76f-2dd094fd376e)
+
+
 2. в файле index.html
 
 ```html
@@ -405,3 +418,5 @@ html,body{
 </body>
 </html>
 ```
+
+![2024-12-28_14-11-27](https://github.com/user-attachments/assets/ca2a7276-4969-492e-a144-6b789b4d3fa2)
